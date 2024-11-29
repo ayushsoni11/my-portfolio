@@ -22,3 +22,13 @@ var d = new Date("25 Aug 2015");
 console.log(d)
 console.log(obj.address.city);
 
+console.log(1&1 , 1&0, 0&1, 0&0);
+console.log(0|1, 0|0 , 1|1, 1|0);
+console.log(~0)
+
+var a = -6;
+console.log(a++);
+console.log(++a);
+console.log(a--);
+console.log(a)
+
