@@ -32,3 +32,24 @@ console.log(++a);
 console.log(a--);
 console.log(a)
 
+// let age = prompt("Enter age : ")
+// if(age <= 18) {
+//     console.log('You are not eligible to vote');
+// } else {
+//     console.log("You are eligible to vote");
+// }
+
+let marks = 30;
+if(marks > 0 && marks <=70 ) {
+    console.log("Passed")
+} else if(marks > 70) {
+    console.log("C grade");
+} else if(marks > 80) {
+    console.log("B grade");
+} else if (marks > 90 && marks <= 100) {
+    console.log("A grade");
+} else {
+    console.log("Invalid Marks");
+}
+
+
