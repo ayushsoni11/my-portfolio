@@ -9,14 +9,14 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
     
     <link rel="stylesheet" href="/css/skins/color-1.css" class="alternate-style" title="color-1" disabled>
-    <link rel="stylesheet" href="/css/skins/color-2.css" class="alternate-style" title="color-2" disabled>
+    <link rel="stylesheet" href="/css/skins/color-2.css" class="alternate-style" title="color-2">
     <link rel="stylesheet" href="/css/skins/color-3.css" class="alternate-style" title="color-3" disabled>
-    <link rel="stylesheet" href="/css/skins/color-4.css" class="alternate-style" title="color-4" >
+    <link rel="stylesheet" href="/css/skins/color-4.css" class="alternate-style" title="color-4" disabled >
     <link rel="stylesheet" href="/css/skins/color-5.css" class="alternate-style" title="color-5" disabled>
     <link rel="stylesheet" href="/css/style-switcher.css">
 </head>
 
-<body>
+<body class="dark">
     <div class="main-container">
         <div class="aside">
             <div class="logo">
@@ -28,37 +28,30 @@
             </div>
 
             <ul class="nav">
-                <li><a href="#" class="active"><i class="fa fa-home"></i>Home</a></li>
-                <li><a href="#"><i class="fa fa-user"></i>About</a></li>
-                <li><a href="#"><i class="fa fa-list"></i>Services</a></li>
-                <li><a href="#"><i class="fa fa-briefcase"></i>Portfolio</a></li>
-                <li><a href="#"><i class="fa fa-comments"></i>Contact</a></li>
+                <li><a href="#home" class="active"><i class="fa fa-home"></i>Home</a></li>
+                <li><a href="#about"><i class="fa fa-user"></i>About</a></li>
+                <li><a href="#services"><i class="fa fa-list"></i>Services</a></li>
+                <li><a href="#portfolio"><i class="fa fa-briefcase"></i>Portfolio</a></li>
+                <li><a href="#contact"><i class="fa fa-comments"></i>Contact</a></li>
 
             </ul>
         </div>
 
         <div class="main-content">
 
-            <section class="home section">
+            <section class="home section" id="home">
 
                 <div class="container">
                     <div class="row">
                         <div class="home-info padd-15">
                             <h3 class="hello">Hello, My name is <span class="name">Ayush Soni</span></h3>
                             <h3 class="my-profession">I'm a <span class="typing">Software Engineer</span></h3>
-                            <p>A passionate and dedicated third-year Computer Science student at Acropolis Institute of
-                                Technology & Research. With a keen interest in web development and problem-solving, I
-                                thrive on creating innovative solutions that blend functionality with creativity. Beyond
-                                academics, I’ve honed my skills through internships, projects, and leadership roles,
-                                such as serving as the Technical Head of my college’s techno-cultural club, Spectra.
-                                When I’m not coding or brainstorming ideas, I enjoy dancing, reading self-help books,
-                                and staying active as a fitness enthusiast. I’m driven by the goal of contributing to
-                                society while continuously evolving both personally and professionally.</p>
+                            <p>Highly ambitious and self-motivated software engineer seeking an entry-level position to leverage technical expertise and soft skills for meaningful contributions in the tech industry.</p>
                             <a href="#contact" class="btn hire-me">Hire Me</a>
                         </div>
 
                         <div class="home-img padd-15">
-                            <img src="/images/pic.jpg">
+                            <img src="/images/finallll.JPG">
 
                         </div>
                     </div>
@@ -66,7 +59,7 @@
             </section>
 
             <!-- about section  -->
-            <section class="about section">
+            <section class="about section" id="about">
                 <div class="container">
                     <div class="row">
                         <div class="section-title padd-15">
@@ -78,14 +71,9 @@
                         <div class="about-content padd-15">
                             <div class="row">
                                 <div class="about-text padd-15">
-                                    <h3>I'm Ayush soni and <span>Web Developer</span></h3>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate molestias
-                                        excepturi repudiandae, dolorem sed inventore? Nisi voluptates delectus, odit
-                                        debitis sint quas, vero nulla soluta perferendis sunt in magni labore eaque cum
-                                        vel iusto quaerat, mollitia quibusdam dicta eius temporibus saepe cupiditate?
-                                        Commodi consectetur dolorem ut magnam adipisci provident incidunt quae?
-                                        Molestias, dignissimos eveniet neque distinctio doloribus porro, aliquam quae
-                                        facere quasi laborum aliquid, ab voluptatibus?</p>
+                                    <h3>I'm Ayush soni and a <span>Future Engineer</span></h3>
+                                    <p>I am a passionate and dedicated third-year Computer Science student at Acropolis Institute of Technology & Research, aspiring to excel as a skilled software engineer. With a strong foundation in programming and a keen interest in innovative technologies, I am driven by a desire to solve real-world problems through creative and efficient solutions. I thrive on challenges and continuously seek opportunities to learn and grow. <br>
+                                        Currently, I am seeking opportunities to apply my technical expertise and interpersonal skills to contribute effectively to innovative projects in the tech industry while gaining valuable professional experience and furthering my career growth.</p>
                                 </div>
                             </div>
                             <div class="row">
@@ -100,7 +88,7 @@
                                         </div>
 
                                         <div class="info-item padd-15">
-                                            <p>Website : <span>www.domain.com</span></p>
+                                            <p>Linked In: <span><a href="https://www.linkedin.com/in/ayush-soni-a7a5aa271/">Connect With Me</a></span></p>
                                         </div>
 
                                         <div class="info-item padd-15">
@@ -121,7 +109,7 @@
                                     </div>
                                     <div class="row">
                                         <div class="buttons padd-15">
-                                            <a href="#" class="btn">Download CV</a>
+                                            <a href="https://docs.google.com/document/d/1aXYD7JrJDw1B9x3o8fKQzp80XF1YTScd8FuQyB70wS0/edit?usp=sharing" class="btn">Download CV</a>
                                             <a href="#contact" class="btn hire-me">Hire Me</a>
                                         </div>
                                     </div>
@@ -261,7 +249,7 @@
 
 
             <!-- Service section start -->
-            <section class="service section">
+            <section class="service section" id="services">
                 <div class="container">
                     <div class="row">
                         <div class="section-title padd-15">
@@ -341,7 +329,7 @@
             </section>
 
             <!-- portfolio section  -->
-             <section class="portfolio section">
+             <section class="portfolio section" id="portfolio">
                 <div class="container">
                     <div class="row">
                         <div class="section-title padd-15">
@@ -377,7 +365,7 @@
 
 
              <!-- Contact me section -->
-              <section class="contact section">
+              <section class="contact section" id="contact">
                 <div class="container">
                     <div class="row">
                         <div class="section-title padd-15">
@@ -389,7 +377,7 @@
                     <div class="row">
                         <div class="contact-info-item padd-15">
                             <div class="icon"><i class="fa fa-phone"></i></div>
-                            <h4>Call Us On</h4>
+                            <h4>Call On</h4>
                             <p>+91 8349559616</p>
                         </div>
 
@@ -466,7 +454,7 @@
             <i class="fas fa-cog fa-spin"></i>
         </div>
         <div class="day-night s-icon">
-            <i class="fas fa-moon"></i>
+            <i class="fas"></i>
         </div>
         <h4>Theme Colors</h4>
         <div class="colors">
@@ -478,6 +466,8 @@
         </div>
     </div>
 
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js" integrity="sha512-+2pW8xXU/rNr7VS+H62aqapfRpqFwnSQh9ap6THjsm41AxgA0MhFRtfrABS+Lx2KHJn82UOrnBKhjZOXpom2LQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="/js/script.js"></script>
     <script src="/js/style-switcher.js"></script>
 </body>
